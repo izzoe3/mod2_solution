@@ -10,15 +10,15 @@ h1 {
 
 p {
   
-  background-color: grey;
+  background-color: transparent;
   width: 90%;
-  height: 150px;
+  height: auto;
   margin-right: auto;
   margin-left: auto;
   font-family: Verdana;
   color: white;
   clear: right;
-  overflow: auto;
+  padding-bottom: 10px;
 }
 
 
@@ -34,6 +34,18 @@ div {
   background-color: grey;
 }
 
+div.content1 {
+  background-color: brown;
+}
+
+div.content2 {
+  background-color: violet;
+}
+
+div.content3 {
+  background-color: magenta;
+}
+
 h3 {
   text-align: center;
   width: 200px;
@@ -47,7 +59,7 @@ h3 {
 }
 
 h3.chicken {
-  background-color: purple;
+  background-color: red;
   color: white;
 }
 
@@ -65,7 +77,7 @@ h3.sushi {
 @media (min-width: 992px) {
   .col-lg-1 {
     float: left;
-    border: 1px solid green;
+    border: 1px solid black;
     margin-left: 1%;
 
   }
@@ -79,7 +91,7 @@ h3.sushi {
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3 {
     float: left;
-    border: 1px solid green;
+    border: 1px solid black;
     margin: 5px;
   }
   .col-md-1 {
@@ -98,7 +110,7 @@ h3.sushi {
 @media (max-width: 767px) {
   .col-sm-1 {
     float: left;
-    border: 1px solid green;
+    border: 1px solid black;
     margin: 5px;
   }
   .col-sm-1 {
